@@ -41,12 +41,13 @@ git clone --recurse-submodules git@github.com:project-chip/connectedhomeip.git
 
 ### Specific platforms Checking out
 
--   first step, checking out matter top level repo with command below:
+-   First step, checking out matter top level repo with command below:
 
 ```
   git clone --depth=1 git@github.com:project-chip/connectedhomeip.git
 
 ```
+Then `cd` into `connectedhomeip`.
 
 -   Second step, check out third-party platform support repos as follows:
 
